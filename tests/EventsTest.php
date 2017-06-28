@@ -1,13 +1,13 @@
 <?php
 
-namespace Rickycezar\Tests;
+namespace Incorp\Tests;
 
 use Illuminate\Auth\Events\Login;
 use Illuminate\Auth\Events\Logout;
 use Illuminate\Support\Facades\Event;
-use Rickycezar\Impersonate\Events\LeaveImpersonation;
-use Rickycezar\Impersonate\Events\TakeImpersonation;
-use Rickycezar\Tests\Stubs\Models\User;
+use Incorp\Impersonate\Events\LeaveImpersonation;
+use Incorp\Impersonate\Events\TakeImpersonation;
+use Incorp\Tests\Stubs\Models\User;
 
 class EventsTest extends TestCase
 {

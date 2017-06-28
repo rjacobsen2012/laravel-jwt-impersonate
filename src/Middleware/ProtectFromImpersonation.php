@@ -1,10 +1,10 @@
 <?php
 
-namespace Rickycezar\Impersonate\Middleware;
+namespace Incorp\Impersonate\Middleware;
 
 use Closure;
-use Rickycezar\Impersonate\Exceptions\ProtectedAgainstImpersonationException;
-use Rickycezar\Impersonate\Services\ImpersonateManager;
+use Incorp\Impersonate\Exceptions\ProtectedAgainstImpersonationException;
+use Incorp\Impersonate\Services\ImpersonateManager;
 
 class ProtectFromImpersonation
 {

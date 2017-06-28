@@ -1,18 +1,18 @@
 <?php
 
-namespace Rickycezar\Impersonate;
+namespace Incorp\Impersonate;
 
 use Illuminate\Auth\AuthManager;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Blade;
-use Rickycezar\Impersonate\Guard\SessionGuard;
-use Rickycezar\Impersonate\Middleware\ProtectFromImpersonation;
-use Rickycezar\Impersonate\Services\ImpersonateManager;
+use Incorp\Impersonate\Guard\SessionGuard;
+use Incorp\Impersonate\Middleware\ProtectFromImpersonation;
+use Incorp\Impersonate\Services\ImpersonateManager;
 
 /**
  * Class ServiceProvider
  *
- * @package Rickycezar\Impersonate
+ * @package Incorp\Impersonate
  */
 class ImpersonateServiceProvider extends \Illuminate\Support\ServiceProvider
 {
@@ -105,11 +105,11 @@ class ImpersonateServiceProvider extends \Illuminate\Support\ServiceProvider
 
         $router->macro('impersonate', function () use ($router) {
             $router->get('/impersonate/take/{id}',
-                '\Rickycezar\Impersonate\Controllers\ImpersonateController@take')->name('impersonate')->middleware('auth:api');
+                '\Incorp\Impersonate\Controllers\ImpersonateController@take')->name('impersonate')->middleware('auth:api');
             $router->get('/impersonate/leave',
-                '\Rickycezar\Impersonate\Controllers\ImpersonateController@leave')->name('impersonate.leave')->middleware('auth:api');
+                '\Incorp\Impersonate\Controllers\ImpersonateController@leave')->name('impersonate.leave')->middleware('auth:api');
             $router->get('/impersonate/info',
-                '\Rickycezar\Impersonate\Controllers\ImpersonateController@info')->name('impersonate.info')->middleware('auth:api');
+                '\Incorp\Impersonate\Controllers\ImpersonateController@info')->name('impersonate.info')->middleware('auth:api');
         });
     }
 

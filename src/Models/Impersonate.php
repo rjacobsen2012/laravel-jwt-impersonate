@@ -1,9 +1,9 @@
 <?php
 
-namespace Rickycezar\Impersonate\Models;
+namespace Incorp\Impersonate\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Rickycezar\Impersonate\Services\ImpersonateManager;
+use Incorp\Impersonate\Services\ImpersonateManager;
 
 trait Impersonate
 {

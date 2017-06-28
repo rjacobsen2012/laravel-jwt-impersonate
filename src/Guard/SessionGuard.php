@@ -1,6 +1,6 @@
 <?php
 
-namespace Rickycezar\Impersonate\Guard;
+namespace Incorp\Impersonate\Guard;
 
 use Illuminate\Auth\SessionGuard as BaseSessionGuard;
 use Illuminate\Contracts\Auth\Authenticatable;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Rickycezar\Tests\Stubs\Models;
+namespace Incorp\Tests\Stubs\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Rickycezar\Impersonate\Models\Impersonate;
+use Incorp\Impersonate\Models\Impersonate;
 
 class User extends Authenticatable
 {

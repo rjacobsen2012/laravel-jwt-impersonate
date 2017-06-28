@@ -1,9 +1,9 @@
 <?php
 
-namespace Rickycezar\Impersonate;
+namespace Incorp\Impersonate;
 
 use Illuminate\Support\Facades\Facade;
-use Rickycezar\Impersonate\Services\ImpersonateManager;
+use Incorp\Impersonate\Services\ImpersonateManager;
 
 class Impersonate extends Facade
 {

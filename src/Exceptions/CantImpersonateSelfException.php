@@ -1,6 +1,6 @@
 <?php
 
-namespace Rickycezar\Impersonate\Exceptions;
+namespace Incorp\Impersonate\Exceptions;
 
 
 class CantImpersonateSelfException extends \Exception{

@@ -30,18 +30,18 @@
 
 - Require it with Composer:
 ```bash
-composer require rickycezar/laravel-impersonate
+composer require incorp/laravel-impersonate
 ```
 
 - Add the service provider at the end of your `config/app.php`:
 ```php
 'providers' => [
     // ...
-    Rickycezar\Impersonate\ImpersonateServiceProvider::class,
+    Incorp\Impersonate\ImpersonateServiceProvider::class,
 ],
 ```
 
-- Add the trait `Rickycezar\Impersonate\Models\Impersonate` to your **User** model.
+- Add the trait `Incorp\Impersonate\Models\Impersonate` to your **User** model.
 
 ## Simple usage
 
@@ -115,7 +115,7 @@ You need to add the method `canBeImpersonated()` to your user model to extend th
 
 It is possible to implement your own controller to deal with impersonation:
 ```php
-use Rickycezar\Impersonate\Services\ImpersonateManager;
+use Incorp\Impersonate\Services\ImpersonateManager;
 
 class ImpersonateController extends Controller
 {

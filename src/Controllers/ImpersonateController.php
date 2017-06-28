@@ -1,11 +1,11 @@
 <?php
 
-namespace Rickycezar\Impersonate\Controllers;
+namespace Incorp\Impersonate\Controllers;
 
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Rickycezar\Impersonate\Services\ImpersonateManager;
+use Incorp\Impersonate\Services\ImpersonateManager;
 
 class ImpersonateController extends Controller
 {

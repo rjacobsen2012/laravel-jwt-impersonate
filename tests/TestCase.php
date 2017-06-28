@@ -1,9 +1,9 @@
 <?php
 
-namespace Rickycezar\Tests;
+namespace Incorp\Tests;
 
-use Rickycezar\Impersonate\ImpersonateServiceProvider;
-use Rickycezar\Tests\Stubs\Models\User;
+use Incorp\Impersonate\ImpersonateServiceProvider;
+use Incorp\Tests\Stubs\Models\User;
 use Orchestra\Database\ConsoleServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase

@@ -1,16 +1,16 @@
 <?php
 
-namespace Rickycezar\Impersonate\Services;
+namespace Incorp\Impersonate\Services;
 
-use Rickycezar\Impersonate\Exceptions\AlreadyImpersonatingException;
-use Rickycezar\Impersonate\Exceptions\CantBeImpersonatedException;
-use Rickycezar\Impersonate\Exceptions\CantImpersonateException;
-use Rickycezar\Impersonate\Exceptions\CantImpersonateSelfException;
-use Rickycezar\Impersonate\Exceptions\NotImpersonatingException;
+use Incorp\Impersonate\Exceptions\AlreadyImpersonatingException;
+use Incorp\Impersonate\Exceptions\CantBeImpersonatedException;
+use Incorp\Impersonate\Exceptions\CantImpersonateException;
+use Incorp\Impersonate\Exceptions\CantImpersonateSelfException;
+use Incorp\Impersonate\Exceptions\NotImpersonatingException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Application;
-use Rickycezar\Impersonate\Events\LeaveImpersonation;
-use Rickycezar\Impersonate\Events\TakeImpersonation;
+use Incorp\Impersonate\Events\LeaveImpersonation;
+use Incorp\Impersonate\Events\TakeImpersonation;
 
 class SessionStorage
 {
