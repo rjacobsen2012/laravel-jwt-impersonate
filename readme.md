@@ -1,6 +1,6 @@
 # Laravel JWT Impersonate
 
-**DISCLAIMER:** This is a fork of [lab404/laravel-impersonate](https://github.com/404labfr/laravel-impersonate) patched to work with JWTAuth in a REST API application. I'll Always recommend you to use the original component.  
+**DISCLAIMER:** This is a project meant to fit the needs of a private company. This means this repository will not focus on flexibe open-source driven development, rather it will be changed and altered as the company sees fit.  
 
 
 **Laravel Impersonate** makes it easy to **authenticate as your users**. Add a simple **trait** to your **user model** and impersonate as one of your users in one click.
