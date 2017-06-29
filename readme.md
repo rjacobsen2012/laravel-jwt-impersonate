@@ -1,4 +1,4 @@
-# Laravel JWT Impersonate
+# Incorp Laravel JWT Impersonate
 
 **DISCLAIMER:** This is a project meant to fit the needs of a private company. This means this repository will not focus on flexibe open-source driven development, rather it will be changed and altered as the company sees fit.  
 
