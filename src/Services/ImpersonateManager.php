@@ -35,6 +35,12 @@ class ImpersonateManager
         $this->auth = $app['auth'];
     }
 
+    public function setAuth($auth)
+    {
+        $this->auth = $auth;
+        return $this;
+    }
+
     /**
      * @param   int $id
      * @return  Model
